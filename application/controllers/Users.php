@@ -47,7 +47,7 @@ class Users extends CI_Controller {
 
 		$this->usersModel->registro($nombres,$apellido_paterno,$apellido_materno,$tipo_documento,$numero_documento,$nacionalidad,$contraseña);
 
-		redirect('registro');
+		redirect('users');
 	}
 
 	public function login(){

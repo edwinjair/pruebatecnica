@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <div id="div_tabla">
-        <div id="img_logo"><img src="../logoFS.png"></div>
+        <div id="img_logo"><img src="logoFS.png"></div>
       	<table border="1">
           <caption>Usuarios</caption>
           <tr>
