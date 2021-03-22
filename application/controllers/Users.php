@@ -47,7 +47,7 @@ class Users extends CI_Controller {
 
 		$this->usersModel->registro($nombres,$apellido_paterno,$apellido_materno,$tipo_documento,$numero_documento,$nacionalidad,$contraseña);
 
-		redirect('users');
+		redirect('registro');
 	}
 
 	public function login(){
@@ -55,7 +55,7 @@ class Users extends CI_Controller {
 		$password = $this->input->post('password');
 		$login = $this->usersModel->consulta_login($user,$password);
 		if(!empty($login)){
-			echo "usuario correcto";
+			redirect('users');
 		}else {
 			echo "usuario no existe";
 
