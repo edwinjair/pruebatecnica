@@ -1,0 +1,90 @@
+html,body {
+	margin: 0px;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	font-family: 'Segoe UI';
+	color: #545454;
+	margin: 0px;
+	border: 0px;
+}
+
+.container #img_login{
+	height:	inherit;
+	width: 65%;
+	margin: 0px;
+	border: 0px;
+}
+.container #img_login img{
+	height: 54.5em;
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+}
+
+.container #form_registro{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: inherit;
+	width: 35%;
+}
+
+.container #form_registro #img_logo img{
+	width: 32em;
+}
+
+.container #form_registro #form_rellenar{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 65%;
+}
+
+.container #form_registro #form_rellenar form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container #form_registro #form_rellenar input{
+	padding: 0px;
+}
+
+.container #form_registro #form_rellenar .volver_login a{
+	text-decoration: none;
+	color: #8b0000;
+	font-weight: bold;
+}
+
+.container #form_registro #form_rellenar .div_input{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0.5em;
+}
+
+.container #form_registro #form_rellenar .volver_login{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.container #form_registro #form_rellenar .submit_registro {
+	width: 100%;
+}
+
+.container #form_registro #form_rellenar .submit_registro input{
+	background-color: red;
+	border-color: red;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+}
